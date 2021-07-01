@@ -1,0 +1,51 @@
+#header-nav {
+border-radius: 0;
+
+
+}
+.navbar-default .navbar-brand {
+    color: black;
+}
+.navbar-default .navbar-toggle {
+    border-color: black;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+#header-navbar-nav{
+ margin-top: 0;
+ margin-bottom: 0;
+
+}
+.navbar-default .navbar-nav>li>a {
+    color: black;
+    text-align: center;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    background-color: burlywood;
+
+}
+#p1{
+background-color: rgb(192, 210, 30);
+    
+}
+@media (max-width: 767px){
+#containerstyles {
+    width: 90%;
+}
+.navbar-collapse {
+    
+    border-top: transparent;
+    
+}
+.nav>li {
+    position: relative;
+    display: block;
+    border-top: solid 1px black;
+}
+}
